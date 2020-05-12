@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<script>
+    function sign(){
+        window.open("https://www.youtube.com/watch?v=C-IukwZudNY");
+    }
+    function about(){
+        window.open("https://github.com/ravi7861412");
+    }
+</script>
+<style>
+    body{
+        background-image: url("wall2.jpg");
+    }
+    #nav-bar{
+       /* border:2px solid red; */
+    
+     /*   text-align: right;*/
+    }
+    
+    .nav-element{
+        height:2.5rem;
+        width:7rem;
+        border-radius: 1rem;
+        border:none;
+        cursor:pointer;
+        outline:none;
+         box-shadow: 5px 5px 5px#4cd3c2; 
+      margin-top: 2.5rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      font-family: 'Indie Flower', cursive;
+      font-weight: 600;
+        font-size: 1.3rem;
+        background-color: #d4f3ef;
+    }
+    .nav-element:hover{
+        height:2.6rem;
+        width:8rem;
+    }
+
+    #logo{
+        text-align: center;
+     /*   border:2px solid black; */
+        width:12rem;
+        margin:auto;
+    }
+    #logo:hover{
+        transition: all 2s linear;
+        transform:rotateY(360deg);
+    }
+    #formi{
+        text-align: center;
+        margin: 0;
+  /* position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+    }
+    .des{
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        font-weight: 950;
+        font-family: 'Indie Flower', cursive;
+        
+    }
+    .blank{
+        height:2.5rem;
+        width:16rem;
+        border-radius: 2rem;
+        border:3.5px solid #ff6363; 
+        outline: none;
+        padding-left: 5px;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+    }
+    input.blank:focus{
+        background-color: #abf0e9;
+    }
+    .blank:hover {
+        height:2.8rem;
+        width:18rem;
+    }
+    #sub:hover{
+        height:2.7rem;
+        width:8rem;
+    }
+
+    #sub{
+        height:2.5rem;
+        width:7rem;
+        border-radius: 1rem;
+        border:none;
+        cursor:pointer;
+        outline:none;
+       font-weight: 600;
+        font-size: 1.3rem;
+        box-shadow: 7px 7px 7px #ff6363;
+        font-family: 'Indie Flower', cursive;
+    background-color: #d4f3ef;
+    }
+    
+</style>
+    </head>
+    <body>
+        
+        <div id="logo">
+            <img src="unicorn.png">
+        </div>
+        <form action="https://www.freecodecamp.org/email-submit" method="post" id="formi" target="_blank">
+        <label for="email" class="des">Email</label>
+        <br/>
+        <input type="email" class="blank"  placeholder="Enter Your Email">
+        <br/>
+        <label for="password" class="des">Password</label>
+        <br/>
+        <input type="password" class="blank" placeholder="Enter Password">
+        <br/><br/>
+        <input type="submit" value="Login" id="sub"><br/>
+        </form>
+        <div style="text-align: center;">
+            <button class="nav-element" onclick="sign()">Sign Up</button>
+            <button class="nav-element" onclick="about()">About Us</button></div>
+        
+    </body>
+</html>
