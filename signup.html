@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script>
+        function login(){
+            window.open("https://www.youtube.com/watch?v=C-IukwZudNY");
+        }
+        function about(){
+            window.open("https://github.com/ravi7861412");
+        }
+    </script>
+</head>
+<body>
+    <div id="logo">
+        <img src="unicorn.png">
+    </div>
+    <form action="https://www.freecodecamp.org/email-submit" method="post" id="formi" target="_blank">
+    <label for="name" class="des">Name</label><br/>
+    <input type="text"class="blank" placeholder="Enter Your Name"><br/>
+        <label for="email" class="des">Email</label>
+    <br/>
+    <input type="email" class="blank"  placeholder="Enter Your Email">
+    <br/>
+    <label for="password" class="des">Password</label>
+    <br/>
+    <input type="password" class="blank" placeholder="Enter Password">
+    <br/><br/>
+    <input type="submit" value="Sign Up" id="sub"><br/>
+    </form>
+    <div style="text-align: center;">
+        <button class="nav-element" onclick="login()">Login</button>
+        <button class="nav-element" onclick="about()">About Us</button></div>
+    
+</body>
+</html>
